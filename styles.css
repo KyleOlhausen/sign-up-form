@@ -93,6 +93,15 @@ img {
     max-width: 250px;
 }
 
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
 .bottom {
     display: flex;
     flex-direction: column;
