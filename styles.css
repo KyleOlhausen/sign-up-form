@@ -5,7 +5,7 @@ html, body, .main-cont {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: lightgray;
+    background-color: rgb(245, 245, 245);
 }
 
 .main-cont {
@@ -50,13 +50,14 @@ img {
 }
 
 .top-text {
-    flex: .2;
+    flex: .4;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 50px;
     font-weight: bolder;
     font-size: x-large;
+    max-width: 900px;
 }
 
 .sign-up {
@@ -64,6 +65,7 @@ img {
     flex: .4;
     padding-left: 50px;
     padding-bottom: 20px;
+    box-shadow: 1px 1px 8px #888888;
 }
 
 .sign-up p {
@@ -74,34 +76,43 @@ img {
 .form {
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
     justify-content: flex-start;
-
+    gap: 30px;
 }
 
 .form-left, .form-right {
     flex: .35;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 30px;
 }
 
 .input {
     display: flex;
     flex-direction: column;
+    max-width: 250px;
 }
 
 .bottom {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     padding: 50px;
+    font-weight: bold;
+    gap: 10px;
 }
 
 .btn {
     color: white;
-    background-color: green;
+    background-color: #596D48;
     padding: 15px;
     padding-left: 50px;
     padding-right: 50px;
+    border: 0;
     border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
 }
