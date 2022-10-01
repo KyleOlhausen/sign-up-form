@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
 html, body, .main-cont {
     height: 100%;
     width: 100%;
@@ -12,9 +15,33 @@ html, body, .main-cont {
 }
 
 .left-cont {
-    background-color: green;
+    background: url(./images/background.jpg);
+    background-size: cover;
     flex: .5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
 }
+
+.title {
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    height: 200px;
+    font-family: 'Cinzel', serif;
+}
+
+img {
+    height: 150px;
+    padding: 20px;
+}
+
 
 .right-cont {
     flex: 1;
