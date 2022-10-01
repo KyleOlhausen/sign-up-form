@@ -42,7 +42,6 @@ img {
     padding: 20px;
 }
 
-
 .right-cont {
     flex: 1;
     display: flex;
@@ -93,7 +92,6 @@ img {
     max-width: 250px;
 }
 
-
 input:invalid {
     border-color: red;
 }
@@ -124,4 +122,8 @@ input:valid {
 a {
     text-decoration: none;
     color: #596D48;
+}
+
+.error {
+    color: rgb(214, 61, 61);
 }
