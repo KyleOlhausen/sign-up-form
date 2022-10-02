@@ -14,6 +14,7 @@ html, body, .main-cont {
     flex-wrap: wrap;
 }
 
+/* Left side of page */
 .left-cont {
     background: url(./images/background.jpg);
     background-size: cover;
@@ -42,6 +43,7 @@ img {
     padding: 20px;
 }
 
+/* Right side of page */
 .right-cont {
     flex: 1;
     display: flex;
@@ -100,6 +102,10 @@ input:valid {
     border-color: green;
 }
 
+.error {
+    color: rgb(214, 61, 61);
+}
+
 .bottom {
     display: flex;
     flex-direction: column;
@@ -129,6 +135,3 @@ a {
     color: #596D48;
 }
 
-.error {
-    color: rgb(214, 61, 61);
-}
